@@ -69,7 +69,7 @@ graph TB
     JwtVer --> Validation[Token Signature &<br/>Claims Validation]
     Validation --> Business[Protected Business Logic]
     
-    Business --> Result[Business Result:<br/>"secret-unlocked"]
+    Business --> Result[Business Result:<br/>secret-unlocked]
     
     subgraph "Attestation Flow"
         AttSvc
